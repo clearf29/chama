@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chama Number</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+<script>
+  function generateRandomTenDigitNumber() {
+    return Math.floor(1000000000 + Math.random() * 9000000000);
+  }
+
+  document.body.innerText = generateRandomTenDigitNumber();
+</script>
+
+</body>
+</html>
